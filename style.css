@@ -1,0 +1,70 @@
+.battlefield{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-template-areas: 10 10;
+    background-color: grey;
+    flex-wrap: wrap;
+    height: 800x;
+    width: 800px;
+}
+
+.grid{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    padding: 0%;
+    margin: 0%;
+    background-image: url(waterTile.jpg);
+    background-size: contain;
+    border: 1px solid;
+    border-color: black;
+    color:white;
+}
+
+.battlefield a:hover{
+    background-color: black;
+}
+
+.tileImg{
+    display: flex;
+    justify-self: center;
+    height: 100%;
+    width: auto;
+    object-fit: fill;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.gameArea{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.currentSqr{
+    width: 150px;
+    height: 150px;
+
+}
+
+.text {
+    font-size: 250%;
+}
+
+.ship1{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    padding: 0%;
+    margin: 0%;
+    background-size: contain;
+    border: 1px solid;
+    border-color: black;
+    color:white;
+    background-color: black;
+}
